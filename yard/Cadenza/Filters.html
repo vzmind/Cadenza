@@ -1,0 +1,1133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta name="Content-Type" content="text/html; charset=utf8" />
+<title>Class: Cadenza::Filters</title>
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="../css/common.css" type="text/css" media="screen" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  relpath = '..';
+  if (relpath != '') relpath += '/';
+</script>
+<script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
+
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+      if (window.top.frames.main) document.body.className = 'frames';
+    </script>
+    
+    <div id="header">
+      <div id="menu">
+  
+    <a href="../_index.html">Index (F)</a> &raquo; 
+    <span class='title'><span class='object_link'><a href="../Cadenza.html" title="Cadenza (module)">Cadenza</a></span></span>
+     &raquo; 
+    <span class="title">Filters</span>
+  
+  
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
+
+      <div id="search">
+  <a id="class_list_link" href="#">Class List</a>
+  <a id="method_list_link" href="#">Method List</a>
+  <a id ="file_list_link" href="#">File List</a>
+</div>
+
+      <div class="clear"></div>
+    </div>
+    
+    <iframe id="search_frame"></iframe>
+    
+    <div id="content"><h1>Class: Cadenza::Filters
+  
+  
+  
+</h1>
+
+<dl class="box">
+  
+    <dt class="r1">Inherits:</dt>
+    <dd class="r1">
+      <span class="inheritName">Object</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">Cadenza::Filters</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+      </dd>
+    
+  
+  
+    
+  
+    
+  
+  
+  
+    <dt class="r2 last">Defined in:</dt>
+    <dd class="r2 last">/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb<span class="defines">,<br />
+  /home/will/rails-workspace/cadenza/lib/cadenza/filters/active_support.rb</span>
+</dd>
+  
+</dl>
+<div class="clear"></div>
+
+
+
+
+  
+    <h2>
+      Class Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#addslashes-class_method" title="addslashes (class method)">+ (Object) <strong>addslashes</strong>(string) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#capitalize-class_method" title="capitalize (class method)">+ (Object) <strong>capitalize</strong>(string) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#center-class_method" title="center (class method)">+ (Object) <strong>center</strong>(string, len, padstr = ' ') </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#cut-class_method" title="cut (class method)">+ (Object) <strong>cut</strong>(string, value) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#date-class_method" title="date (class method)">+ (Object) <strong>date</strong>(date, format = '%F') </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#default-class_method" title="default (class method)">+ (Object) <strong>default</strong>(value, default) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#escape-class_method" title="escape (class method)">+ (Object) <strong>escape</strong>(string) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+TODO: dictsort TODO: dictsortreversed.
+</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#first-class_method" title="first (class method)">+ (Object) <strong>first</strong>(value) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+TODO: filesizeformat - use actionview
+http://api.rubyonrails.org/classes/ActionView/Helpers/NumberHelper.html.
+</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#join-class_method" title="join (class method)">+ (Object) <strong>join</strong>(value, glue) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+TODO: iriencode.
+</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#last-class_method" title="last (class method)">+ (Object) <strong>last</strong>(value) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#length-class_method" title="length (class method)">+ (Object) <strong>length</strong>(value) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#ljust-class_method" title="ljust (class method)">+ (Object) <strong>ljust</strong>(string, width) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+TODO: linenumbers.
+</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#lower-class_method" title="lower (class method)">+ (Object) <strong>lower</strong>(string) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#lower_camelize-class_method" title="lower_camelize (class method)">+ (Object) <strong>lower_camelize</strong>(string) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#rjust-class_method" title="rjust (class method)">+ (Object) <strong>rjust</strong>(string, width) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+TODO: removetags.
+</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#upper-class_method" title="upper (class method)">+ (Object) <strong>upper</strong>(string) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+TODO: unordered_list.
+</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#upper_camelize-class_method" title="upper_camelize (class method)">+ (Object) <strong>upper_camelize</strong>(string) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#wordwrap-class_method" title="wordwrap (class method)">+ (Object) <strong>wordwrap</strong>(string, length, separator = &quot;&lt;br/&gt;&quot;) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+TODO: wordcount.
+</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+
+  <div id="class_method_details" class="method_details_list">
+    <h2>Class Method Details</h2>
+    
+    
+      <div class="method_details first">
+  <p class="signature first" id="addslashes-class_method">
+  
+    + (<tt>Object</tt>) <strong>addslashes</strong>(string) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+5
+6
+7</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 5</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='addslashes identifier id'>addslashes</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='gsub identifier id'>gsub</span><span class='lparen token'>(</span><span class='regexp val'>/\\/</span><span class='comma token'>,</span> <span class='string val'>&quot;\\\\&quot;</span><span class='rparen token'>)</span><span class='dot token'>.</span><span class='gsub identifier id'>gsub</span><span class='lparen token'>(</span><span class='regexp val'>/&quot;/</span><span class='comma token'>,</span><span class='string val'>'\\\\&quot;'</span><span class='rparen token'>)</span><span class='dot token'>.</span><span class='gsub identifier id'>gsub</span><span class='lparen token'>(</span><span class='regexp val'>/'/</span><span class='comma token'>,</span><span class='string val'>&quot;\\\\'&quot;</span><span class='rparen token'>)</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="capitalize-class_method">
+  
+    + (<tt>Object</tt>) <strong>capitalize</strong>(string) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+9
+10
+11</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 9</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='capitalize identifier id'>capitalize</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='capitalize identifier id'>capitalize</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="center-class_method">
+  
+    + (<tt>Object</tt>) <strong>center</strong>(string, len, padstr = ' ') 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+13
+14
+15</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 13</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='center identifier id'>center</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='comma token'>,</span> <span class='len identifier id'>len</span><span class='comma token'>,</span> <span class='padstr identifier id'>padstr</span><span class='assign token'>=</span><span class='string val'>' '</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='center identifier id'>center</span><span class='lparen token'>(</span><span class='len identifier id'>len</span><span class='comma token'>,</span><span class='padstr identifier id'>padstr</span><span class='rparen token'>)</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="cut-class_method">
+  
+    + (<tt>Object</tt>) <strong>cut</strong>(string, value) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+17
+18
+19</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 17</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='cut identifier id'>cut</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='comma token'>,</span> <span class='value identifier id'>value</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='gsub identifier id'>gsub</span><span class='lparen token'>(</span><span class='value identifier id'>value</span><span class='comma token'>,</span><span class='string val'>''</span><span class='rparen token'>)</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="date-class_method">
+  
+    + (<tt>Object</tt>) <strong>date</strong>(date, format = '%F') 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+21
+22
+23</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 21</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='date identifier id'>date</span><span class='lparen token'>(</span><span class='date identifier id'>date</span><span class='comma token'>,</span> <span class='format identifier id'>format</span><span class='assign token'>=</span><span class='string val'>'%F'</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='date identifier id'>date</span><span class='dot token'>.</span><span class='strftime identifier id'>strftime</span><span class='lparen token'>(</span><span class='format identifier id'>format</span><span class='rparen token'>)</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="default-class_method">
+  
+    + (<tt>Object</tt>) <strong>default</strong>(value, default) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+25
+26
+27
+28
+29
+30
+31</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 25</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='default identifier id'>default</span><span class='lparen token'>(</span><span class='value identifier id'>value</span><span class='comma token'>,</span> <span class='default identifier id'>default</span><span class='rparen token'>)</span>
+  <span class='if if kw'>if</span> <span class='value identifier id'>value</span><span class='dot token'>.</span><span class='respond_to? fid id'>respond_to?</span><span class='lparen token'>(</span><span class='string val'>'empty?'</span><span class='rparen token'>)</span>
+    <span class='return return kw'>return</span> <span class='lparen token'>(</span><span class='value identifier id'>value</span><span class='dot token'>.</span><span class='empty? fid id'>empty?</span><span class='rparen token'>)</span> <span class='question op'>?</span> <span class='default identifier id'>default</span> <span class='colon op'>:</span> <span class='value identifier id'>value</span>
+  <span class='else else kw'>else</span>
+    <span class='return return kw'>return</span> <span class='value identifier id'>value</span> <span class='question op'>?</span> <span class='value identifier id'>value</span> <span class='colon op'>:</span> <span class='default identifier id'>default</span>
+  <span class='end end kw'>end</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="escape-class_method">
+  
+    + (<tt>Object</tt>) <strong>escape</strong>(string) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+TODO: dictsort TODO: dictsortreversed
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+36
+37
+38</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 36</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='escape identifier id'>escape</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='CGI constant id'>CGI</span><span class='colon2 op'>::</span><span class='escapeHTML identifier id'>escapeHTML</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='rparen token'>)</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="first-class_method">
+  
+    + (<tt>Object</tt>) <strong>first</strong>(value) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+TODO: filesizeformat - use actionview
+http://api.rubyonrails.org/classes/ActionView/Helpers/NumberHelper.html
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+44
+45
+46</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 44</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='first identifier id'>first</span><span class='lparen token'>(</span><span class='value identifier id'>value</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='value identifier id'>value</span><span class='dot token'>.</span><span class='first identifier id'>first</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="join-class_method">
+  
+    + (<tt>Object</tt>) <strong>join</strong>(value, glue) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+TODO: iriencode
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+52
+53
+54</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 52</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='join identifier id'>join</span><span class='lparen token'>(</span><span class='value identifier id'>value</span><span class='comma token'>,</span> <span class='glue identifier id'>glue</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='value identifier id'>value</span><span class='dot token'>.</span><span class='join identifier id'>join</span><span class='lparen token'>(</span><span class='glue identifier id'>glue</span><span class='rparen token'>)</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="last-class_method">
+  
+    + (<tt>Object</tt>) <strong>last</strong>(value) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+56
+57
+58</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 56</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='last identifier id'>last</span><span class='lparen token'>(</span><span class='value identifier id'>value</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='value identifier id'>value</span><span class='dot token'>.</span><span class='last identifier id'>last</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="length-class_method">
+  
+    + (<tt>Object</tt>) <strong>length</strong>(value) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+60
+61
+62</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 60</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='length identifier id'>length</span><span class='lparen token'>(</span><span class='value identifier id'>value</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='value identifier id'>value</span><span class='dot token'>.</span><span class='length identifier id'>length</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="ljust-class_method">
+  
+    + (<tt>Object</tt>) <strong>ljust</strong>(string, width) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+TODO: linenumbers
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+68
+69
+70</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 68</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='ljust identifier id'>ljust</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='comma token'>,</span><span class='width identifier id'>width</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='ljust identifier id'>ljust</span><span class='lparen token'>(</span><span class='width identifier id'>width</span><span class='rparen token'>)</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="lower-class_method">
+  
+    + (<tt>Object</tt>) <strong>lower</strong>(string) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+72
+73
+74</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 72</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='lower identifier id'>lower</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='downcase identifier id'>downcase</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="lower_camelize-class_method">
+  
+    + (<tt>Object</tt>) <strong>lower_camelize</strong>(string) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+8
+9
+10</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/active_support.rb', line 8</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='lower_camelize identifier id'>lower_camelize</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='rparen token'>)</span>
+  <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='camelize identifier id'>camelize</span><span class='lparen token'>(</span><span class='symbol val'>:lower</span><span class='rparen token'>)</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="rjust-class_method">
+  
+    + (<tt>Object</tt>) <strong>rjust</strong>(string, width) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+TODO: removetags
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+84
+85
+86</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 84</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='rjust identifier id'>rjust</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='comma token'>,</span><span class='width identifier id'>width</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='rjust identifier id'>rjust</span><span class='lparen token'>(</span><span class='width identifier id'>width</span><span class='rparen token'>)</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="upper-class_method">
+  
+    + (<tt>Object</tt>) <strong>upper</strong>(string) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+TODO: unordered_list
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+108
+109
+110</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 108</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='upper identifier id'>upper</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='rparen token'>)</span>
+  <span class='return return kw'>return</span> <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='upcase identifier id'>upcase</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="upper_camelize-class_method">
+  
+    + (<tt>Object</tt>) <strong>upper_camelize</strong>(string) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+4
+5
+6</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/active_support.rb', line 4</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='upper_camelize identifier id'>upper_camelize</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='rparen token'>)</span>
+  <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='camelize identifier id'>camelize</span><span class='lparen token'>(</span><span class='symbol val'>:upper</span><span class='rparen token'>)</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="wordwrap-class_method">
+  
+    + (<tt>Object</tt>) <strong>wordwrap</strong>(string, length, separator = &quot;&lt;br/&gt;&quot;) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+TODO: wordcount
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+118
+119
+120
+121
+122
+123
+124
+125</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File '/home/will/rails-workspace/cadenza/lib/cadenza/filters/standard.rb', line 118</span>
+
+<span class='def def kw'>def</span> <span class='self self kw'>self</span><span class='dot token'>.</span><span class='wordwrap identifier id'>wordwrap</span><span class='lparen token'>(</span><span class='string identifier id'>string</span><span class='comma token'>,</span> <span class='length identifier id'>length</span><span class='comma token'>,</span> <span class='separator identifier id'>separator</span><span class='assign token'>=</span><span class='string val'>&quot;&lt;br/&gt;&quot;</span><span class='rparen token'>)</span>
+  <span class='result identifier id'>result</span> <span class='assign token'>=</span> <span class='string val'>&quot;&quot;</span>
+  <span class='string identifier id'>string</span> <span class='assign token'>=</span> <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='clone identifier id'>clone</span>
+  <span class='while while kw'>while</span> <span class='string identifier id'>string</span> <span class='and and kw'>and</span> <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='length identifier id'>length</span> <span class='gt op'>&gt;</span> <span class='integer val'>0</span>
+    <span class='result identifier id'>result</span> <span class='lshft op'>&lt;&lt;</span> <span class='string identifier id'>string</span><span class='dot token'>.</span><span class='slice! fid id'>slice!</span><span class='lparen token'>(</span><span class='integer val'>0</span><span class='dot2 op'>..</span><span class='length identifier id'>length</span><span class='minus op'>-</span><span class='integer val'>1</span><span class='rparen token'>)</span> <span class='lshft op'>&lt;&lt;</span> <span class='separator identifier id'>separator</span>
+  <span class='end end kw'>end</span>
+  <span class='return return kw'>return</span> <span class='result identifier id'>result</span>
+<span class='end end kw'>end</span>
+</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+    
+    <div id="footer">
+  Generated on Thu Jan 20 14:49:36 2011 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.6.1 (ruby-1.8.7).
+</div>
+
+  </body>
+</html>

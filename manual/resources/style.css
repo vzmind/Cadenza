@@ -1,0 +1,79 @@
+
+/**
+ *   Basic HTML styling
+ **/
+ 
+body {
+	text-align: center;
+	
+	font-family: sans-serif;
+	font-size:   14px;
+	
+	background: url("logo.png") no-repeat 10px 10px;
+	
+	overflow: scroll;
+}
+
+h2 {
+	margin: 30px 0px 5px 0px;
+	border-bottom: 2px solid black;
+	
+	color: orange;
+	
+	font-family: sans-serif;
+	font-size:   2em;
+}
+
+h3 {
+	margin: 20px 0px;
+}
+
+a, a:visited {
+  color: blue;
+}
+
+/**
+ *   Named HTML elements
+ **/
+ 
+div#body {
+	width: 800px;
+	padding: 20px;
+	margin: 120px auto;
+	background-color: #EDEFF4;
+	opacity: 50;
+	border-radius: 20px;
+	text-align: left;
+}
+
+a#forkme {
+  background-image: url("forkme.png");
+  width: 149px;
+  height: 149px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+div#navigation {
+  padding: 10px;
+  
+  background-color: #EDEFF4;
+  
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+   
+  position: fixed;
+  left: 0;
+  top: 120px;
+  
+  max-height: 90%;
+  
+  text-align: left;
+}
+
+div#navigation h3 {
+  margin: 0;
+  padding: 0;
+}
